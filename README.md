@@ -101,7 +101,7 @@ Este proyecto utiliza diversas tecnologías y recursos, cada uno con sus propias
 ## **Enlace de Descarga**
 
 Descarga el ejecutable del proyecto aquí:  
-[**Prueba Unity: Juego de Memoria - Descargar Ejecutable**]([https://tu-enlace-de-descarga.com](https://drive.google.com/file/d/117_LZuVAnEo3Fr3qSISH0ed7xljiozEb/view?usp=sharing))
+[**Prueba Unity: Juego de Memoria - Descargar Ejecutable**](https://tu-enlace-de-descarga.com](https://drive.google.com/file/d/117_LZuVAnEo3Fr3qSISH0ed7xljiozEb/view?usp=sharing )
 
 ---
 
