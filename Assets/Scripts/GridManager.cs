@@ -521,6 +521,19 @@ public class GridManager : MonoBehaviour
 
                 blockComponent.starParticles = particleSystemInstance.GetComponent<ParticleSystem>();
             }
+
+            // Cargar el material desde la carpeta Resources
+            Material material = Resources.Load<Material>("blockDefault");
+
+            if (material != null)
+            {
+                // Asignar el material al Renderer del objeto
+                tile.GetComponent<Renderer>().material = material;
+            }
+            else
+            {
+                Debug.LogWarning("Material no encontrado.");
+            }
         }
 
         // Calcula el centro de la rejilla.
