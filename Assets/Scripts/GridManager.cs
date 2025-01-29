@@ -176,7 +176,7 @@ public class GridManager : MonoBehaviour
         }
 
         // Inicializar la ruta completa del archivo
-        leaderboardFilePath = Path.Combine(Application.persistentDataPath, leaderboardFileName);
+        leaderboardFilePath = Path.Combine(Application.streamingAssetsPath, leaderboardFileName);
 
         // Cargar el leaderboard al iniciar
         LoadLeaderboard();
