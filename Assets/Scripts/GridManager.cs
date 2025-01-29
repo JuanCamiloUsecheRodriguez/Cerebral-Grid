@@ -220,6 +220,19 @@ public class GridManager : MonoBehaviour
                 timeText.text = $"{Mathf.FloorToInt(elapsedTime):D3}";  // Actualiza el texto con el tiempo actual.
             }
         }
+
+        // Verifica si se presionó la tecla Escape
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // Cierra el juego
+            Debug.Log("Juego cerrado.");
+            Application.Quit();
+
+            // Si estás en el editor de Unity, esto no cerrará el editor, pero mostrará un mensaje en la consola
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
     }
 
     /// <summary>
